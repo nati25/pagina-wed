@@ -4,7 +4,7 @@ $("#entrada").click(function(){
 	if ($("#Usuario").val() == "Nathy" && $("#Contraseña").val() == '123'){
 		logueado = true;
 		if (logueado == true) {
-			window.location = "./pages/Inicio.html"
+			window.location = "./pages/inicio.html"
 		}
 	}else{
 		swal.fire('Error');
